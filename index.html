@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/ecde58c65c.js" crossorigin="anonymous"></script>
 </head>
-
+<!---------------------------------------------Nav bar----------------------->
 <header>
     <nav class="lg:mx-20 my-14">
         <div class="navbar bg-base-100">
@@ -47,6 +47,7 @@
     </nav>
 </header>
 <body>
+    <!----------------------------------------------FIRST BOX----------------------->
     <section class=" border-8 lg:mx-20 lg:my-14 lg:h-[32rem] lg:w-[81rem] lg:py-2">
         <div class="relative carousel w-full lg:w-full lg:h-full ">
             <div id="slide1" class="carousel-item relative w-full ">
@@ -85,38 +86,80 @@
             </p>
         </div>
     </section>
-
-    <section class=" border-8 lg:mx-20 lg:my-14 lg:h-[22rem] lg:w-[81rem] lg:py-2">
+    <!---------------------------------------------Second BOX----------------------->
+    <section class="border-8 lg:mx-20 lg:my-14 lg:h-[22rem] lg:w-[81rem] lg:py-2">
         <h3 class="text-4xl text-[#131318] font-extrabold text-center my-4">
             Professional Hockeys Club
         </h3>
         <p class="text-[#13131899] text-base font-normal text-center my-4">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
         </p>
-        <div class="flex justify-around my-4">
-            <div class="relative">
-                <div class="radial-progress text-red-500 relative ml-[5rem]" style="--value:87; --size:6rem" role="progressbar">87%
+        <div class="grid grid-cols-1 lg:flex lg:justify-around my-4">
+            <div class="relative sm:mt-2">
+                <div class="radial-progress text-red-500 relative lg:ml-[5rem] sm: ml-[8rem]" style="--value:87; --size:6rem" role="progressbar">87%
                 </div>
-                <h4 class="text-[ #131318] text-xl font-semibold text-center">Prayer Facility</h4>
-                <p class="text-[#13131899] text-base font-normal text-center w-[15rem] h-14" >Amet consectetur. Condimentum dignissim adipiscing</p>
+                <h4 class="text-[ #131318] text-xl font-semibold text-center mt-2">Prayer Facility</h4>
+                <p class="text-[#13131899] text-base font-normal text-center lg:w-[15rem] h-14 mt-2" >Amet consectetur. Condimentum dignissim adipiscing</p>
+            </div>
+            <div class="relative sm:mt-2">
+                <div class="radial-progress text-green-300 relative lg:ml-[5rem] sm: ml-[8rem]" style="--value:95; --size:6rem" role="progressbar">95%
+                </div>
+                <h4 class="text-[ #131318] text-xl font-semibold text-center mt-2">Experienced Coach</h4>
+                <p class="text-[#13131899] text-base font-normal text-center lg:w-[15rem] h-14 mt-2" >Amet consectetur. Condimentum dignissim adipiscing</p>
+            </div>
+            <div class="relative sm:mt-2">
+                <div class="radial-progress text-orange-300 relative lg:ml-[5rem] sm: ml-[8rem]" style="--value:90; --size:6rem" role="progressbar">90%
+                </div>
+                <h4 class="text-[ #131318] text-xl font-semibold text-center mt-2">Senior Player</h4>
+                <p class="text-[#13131899] text-base font-normal text-center lg:w-[15rem] h-14 mt-2" >Amet consectetur. Condimentum dignissim adipiscing</p>
+            </div>
+            <div class="relative sm:mt-2">
+                <div class="radial-progress text-blue-500 relative lg:ml-[5rem] sm: ml-[8rem]" style="--value:80; --size:6rem" role="progressbar">80%
+                </div>
+                <h4 class="text-[ #131318] text-xl font-semibold text-center mt-2">Training Ground</h4>
+                <p class="text-[#13131899] text-base font-normal text-center lg:w-[15rem] h-14 mt-2" >Amet consectetur. Condimentum dignissim adipiscing</p>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------Fourth Box--------------------------------->
+    <section class="lg:mx-20 my-14 border-2">
+        <div>
+            <h3 class="text-4xl text-[#131318] font-extrabold text-center my-4" >Program Sections</h3>
+            <p class="text-[#13131899] text-base font-normal text-center my-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid grid-cols-1 gap-4">
+            <div class="flex gap-4 object-fill">
+                <div class="w-[50rem] h-[21rem] relative">
+                    <img class="min-w-full max-h-full opacity-70" src="/Images/2.png" alt="">
+                    <div class="absolute -my-60 w-[30rem] h-[15rem] ml-3 ">
+                        <h4 class="text-4xl text-[#131318] font-extrabold my-4 text-left">Junior Program</h4>
+                        <p class="text-[#131318] text-base font-normal text-left my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+                        <button class="btn btn-error w-44 text-xl font-bold">Register Now !</button>
+                    </div>
+                </div>
+                <div class="w-[50rem] h-[21rem] border-2 relative">
+                    <img class="min-w-full max-h-full opacity-70" src="/Images/3.png" alt="">
+                    <div class="absolute -my-60 w-[30rem] h-[15rem] ml-3 ">
+                        <h4 class="text-4xl text-[#131318] font-extrabold my-4 text-left">Junior Program</h4>
+                        <p class="text-[#131318] text-base font-normal text-left my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+                        <button class="btn btn-error w-44 text-xl font-bold">Register Now !</button>
+                    </div>
+                </div>
+
             </div>
             <div class="relative">
-                <div class="radial-progress text-green-300 relative ml-[5rem]" style="--value:95; --size:6rem" role="progressbar">95%
-                </div>
-                <h4 class="text-[ #131318] text-xl font-semibold text-center">Experienced Coach</h4>
-                <p class="text-[#13131899] text-base font-normal text-center w-[15rem] h-14" >Amet consectetur. Condimentum dignissim adipiscing</p>
+             <img class="min-w-full max-h-full opacity-70" src="/Images/4.png" alt="">
+             <div class="absolute -my-72 w-[30rem] h-[15rem] ml-3 ">
+                <h4 class="text-4xl text-[#131318] font-extrabold my-4 text-left">Junior Program</h4>
+                <p class="text-[#131318] text-base font-normal text-left my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button class="btn btn-error w-44 text-xl font-bold">Register Now !</button>
             </div>
-            <div class="relative">
-                <div class="radial-progress text-orange-300 relative ml-[5rem]" style="--value:90; --size:6rem" role="progressbar">90%
-                </div>
-                <h4 class="text-[ #131318] text-xl font-semibold text-center">Senior Playe</h4>
-                <p class="text-[#13131899] text-base font-normal text-center w-[15rem] h-14" >Amet consectetur. Condimentum dignissim adipiscing</p>
-            </div>
-            <div class="relative">
-                <div class="radial-progress text-blue-500 relative ml-[5rem]" style="--value:80; --size:6rem" role="progressbar">80%
-                </div>
-                <h4 class="text-[ #131318] text-xl font-semibold text-center">Training Ground</h4>
-                <p class="text-[#13131899] text-base font-normal text-center w-[15rem] h-14" >Amet consectetur. Condimentum dignissim adipiscing</p>
             </div>
         </div>
     </section>
